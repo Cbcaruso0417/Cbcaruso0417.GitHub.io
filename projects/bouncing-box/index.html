@@ -73,7 +73,7 @@
 			*/
 			function update() {
 				/* Your Code to Increase positionX by 10 HERE*/
-				positionX - positionX + speed;
+				positionX = positionX + speed;
 				moveBoxTo(positionX)
 
 
@@ -85,9 +85,9 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				positionX - 0
+				positionX = 0
     			points++
-				speed = speed
+				speed = speed + 3
 				changeBoxText(points);
 				
 
