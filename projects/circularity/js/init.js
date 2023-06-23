@@ -52,7 +52,12 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-            physikz.updatePosition( circles[0] )
+        
+            for (var i = 0; < circles.length; i++) {
+                physikz.updatePosition(circles[i])
+            }
+            
+            
             physikz.updatePosition( circles[1] )
             physikz.updatePosition( circles[2] )
             physikz.updatePosition( circles[3] )
