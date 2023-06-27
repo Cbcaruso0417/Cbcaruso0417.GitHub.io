@@ -32,6 +32,7 @@ var init = function (window) {
         }
 
         // TODO 3 / 7 : Call the drawCircle() function 
+       
         drawCircle();
         drawCircle();
         drawCircle();
@@ -97,7 +98,7 @@ var init = function (window) {
             }
 
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
+           
 
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
